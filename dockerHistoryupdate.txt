@@ -1,0 +1,61 @@
+    1  userdel ec2-user
+    2  su - 
+    3  clear
+    4  yum update
+    5  yum install -y yum-utils
+    6  yum install -y yum-utils
+    7  yum-config-manager     --add-repo     https://download.docker.com/linux/centos/docker-ce.repo
+    8  yum install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm
+    9  yum install docker-ce docker-ce-cli
+   10  systemctl start docker 
+   11  systemctl enable docker
+   12  systemctl status docker
+   13  docker run hello-world
+   14  docker run hello-world
+   15  exit
+   16  cd
+   17   history
+   18  yum install git
+   19  docker run hello-world
+   20  docker search python
+   21  docker pull python
+   22  docker images
+   23  docker run python
+   24  docker ps -l
+   25  docker start 6b587563c26b
+   26  docker run -it 6b587563c26b bash
+   27  docker run -it python  bash
+   28  docker run -it python  bash
+   29  clear
+   30  docker ps -l
+   31  docker ps -l
+   32  history 
+   33  docker search windows
+   34  docker pull windows-x64 
+   35  docker search dockcross/windows-x64
+   36  docker pull dockcross/windows-x64
+   37  history 
+   38  docker images
+   39  docker ps -l
+   40  docker run dockcross/windows-x64
+   41  git init
+   42  git status
+   43  history 
+   44  history  >> "dockerHistory.txt"
+   45  ls
+   46  cat dockerHistory.txt 
+   47  git add dockerHistory.txt 
+   48  git commit "Adding first day of Docker"
+   49  git commit dockerHistory.txt 
+   50  git remote add origin https://github.com/chandan26/AWSDoCKER.git
+   51  git pull origin master
+   52  git push origin master
+   53  git add .
+   54  git commit -m "Add existing file"
+   55  git remote add origin https://github.com/chandan26/AWSDoCKER.git
+   56  git push origin master
+   57  history  >> "dockerHistory.txt"
+   58  history
+   59  git remote add origin https://github.com/chandan26/AWSDoCKER.git
+   60  git push origin master
+   61  history  >> "dockerHistoryupdate.txt"
